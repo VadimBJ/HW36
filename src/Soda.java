@@ -8,7 +8,7 @@ public class Soda {
   public Soda() {
   }
 
-  public String GetMyDrinkString(){
-    return addition.equals("none")? "Обычная газировка":("Газировка и "+addition);
+  public String GetMyDrinkString() {
+    return addition.equals("none") ? "Обычная газировка" : ("Газировка и " + addition);
   }
 }
